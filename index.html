@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Graph</title>
+</head><body>
+<style>
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	color: #222222;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+nav {
+   
+    color: white;
+}
+.menu{
+    margin: 0 auto;
+    padding-top: 10px;
+        display: flex;
+        justify-content: space-between;   
+        max-width: 1000px;
+        flex-wrap: wrap;
+    }
+    .logo{
+        color: #D2872C;
+        
+    }
+    .conteinerLista{
+        font-size: larger;
+        font-weight: 600;
+        display: flex;
+    color: #766F68;
+        align-content: center;
+       
+      list-style: none;
+
+       
+    }
+    .lista{
+        line-height: 1.6;
+    }
+    .lista li {
+        display: inline;
+    }
+    .logo h2, .lista a{
+        margin: 0 10px 10px 10px;
+    }
+    .secao{
+        height: 100vh;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .textos{
+        margin-bottom: 130px;
+    }
+    .textos h1{
+        font-size: 3em;
+        color: #766F68;
+        margin-bottom: 20px;
+    } 
+    .textos p{
+        font-size: 1.6em;
+        color: #766F68;
+        margin-bottom: 20px;
+    }  
+    .botao{
+        border: none;
+        font-size:  20px;
+        padding: 10px 50px 10px 50px;
+        border-radius: 10px;
+        color: white;
+        background-color: #D2872C ;
+    }
+    .imagem{
+        width: 600px;
+        /* max-width: 600px; */
+    }
+    .botao-respo{
+    display: none;
+}
+    @media screen and (max-width: 480px) {
+        ul {
+            display: none;}
+ .textos{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-wrap: wrap;  
+ }
+ .textos h1{
+        font-size: 2.6em;
+        color: #766F68;
+        margin-bottom: 20px;
+    } 
+    .textos p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+       
+        font-size: 1.6em;
+        color: #766F68;
+        margin-bottom: 20px;
+    }  
+    .botao{
+        border: none;
+        font-size:  20px;
+        /* padding: 10px 50px 10px 50px; */
+        border-radius: 10px;
+        color: white;
+        background-color: #D2872C ;
+    }
+    .spanzinhoh1{
+    padding: 0 70px;
+}
+    .spanzinhop{
+    padding: 0 50px;
+}
+.botao-respo{
+    cursor: pointer;
+    margin-right: 30px;
+    font-size:30px;
+    display: block;
+}
+}
+</style>
+<nav>
+<div class="menu">
+    <div class="logo">
+        <h2>DevChallenge</h2>
+    </div>
+    <div class="conteinerLista">
+        <ul class="lista">
+            <li><a href="#"></a>Home</a></li>
+            <li><a href="#"></a>Features</a></li>
+            <li><a href="#"></a>Contact</a></li>
+        </ul> 
+          <span class="botao-respo">&#9776;</span>
+    </div>
+</div> 
+    </nav>
+    <section class="secao">
+        <div class="textos">
+            <h1>Create amazing<br><span class="spanzinhoh1">graphics</span></h1>
+            <p>Colaborate and create beautiful<br><span class="spanzinhop">graphics with  your team</span></p>
+            
+            <button class="botao">Star now</button>
+        </div>
+<div class="imagem">
+    <img src="assets/team.jpg" ></img>
+</div>
+
+    </section>
+
+</body>
+</html>
