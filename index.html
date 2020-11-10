@@ -76,10 +76,10 @@ nav {
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
-        flex-wrap: wrap-reverse;
+      
     }
     .textos{
-        margin-bottom: 130px;
+        margin-bottom: 130px;    z-index: 1;
     }
     .textos h1{
         font-size: 3em;
@@ -87,7 +87,8 @@ nav {
         margin-bottom: 20px;
     } 
     .textos p{
-        font-size: 1.6em;
+    
+        font-size: 20px;
         color: #766F68;
         margin-bottom: 20px;
     }  
@@ -100,6 +101,7 @@ nav {
         background-color: #D2872C ;
     }
     .imagem{
+        margin-left: -100px;
         width: 600px;
         /* max-width: 600px; */
     }
@@ -107,6 +109,15 @@ nav {
     display: none;
 }
     @media screen and (max-width: 480px) {
+        .secao{
+        height: 100vh;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
         ul {
             display: none;}
  .textos{
